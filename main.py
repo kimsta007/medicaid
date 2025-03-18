@@ -134,5 +134,5 @@ class Surprise:
         ).properties(
             width=800,
             height=400
-        ).interactive()
+        )
         return (ci_band + ci_lower + ci_upper + chart)
